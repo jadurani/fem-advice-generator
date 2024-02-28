@@ -16,17 +16,14 @@ const config: Config = {
       xl: "1280px",
       "2xl": "1536px",
     },
-    fontSize: {
-      body2: "0.8rem",
-      body1: "1rem",
-      h6: "1rem",
-      h5: "1.25rem",
-      h4: "1.563rem",
-      h3: "1.953rem",
-      h2: "2.441rem",
-      h1: "3.052rem",
-    },
     extend: {
+      colors: {
+        "dark-blue": "#202733",
+        "dark-grayish-blue": "#313A48",
+        "grayish-blue": "#4F5D74",
+        "light-cyan": "#CEE3E9",
+        "neon-green": "#53FFAA",
+      },
       fontFamily: {
         body: ["var(--app-font)", ...fontFamily.sans],
       },
