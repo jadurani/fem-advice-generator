@@ -27,6 +27,9 @@ const config: Config = {
       fontFamily: {
         body: ["var(--app-font)", ...fontFamily.sans],
       },
+      dropShadow: {
+        "neon-green": "0 0 16px rgba(83, 255, 170, .8)"
+      }
     },
   },
   plugins: [],
